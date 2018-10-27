@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #c5c0c0;
+}
+article {
+  flex: 1;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+article:nth-child(1) {
+  background-color: #b40202;
+}
+article:nth-child(2) {
+  background-color: #dde01f;
+}
+article:nth-child(3) {
+  background-color: #2305a8;
+}
+article:nth-child(4) {
+  background-color: #0bcc0b;
+}
