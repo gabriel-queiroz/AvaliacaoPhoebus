@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.app {
+  padding: 60px calc((100% - 960px) / 2);
+  min-height: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #c5c0c0;
+}
+.app__item__circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #4e8f8f;
+  color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__item {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.app__item__button {
+  margin: 10px;
+}
+.app__item__button > .fa-trash-alt {
+  color: #ad1f1f;
+  font-size: 16px;
+}
