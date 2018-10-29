@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="app">
+        <img src="./logo.png" alt="">
+        <form class="app__form">
+            <span class="app_form__iduser"></span>
+            <div class="app__form__field">
+                <label class="app__form__field__label" for="name">name</label>
+                <input class="app__form__field__input" required type="text" id="name">
+            </div>
+            <div class="app__form__field">
+                <label class="app__form__field__label" for="location">location</label>
+                <input class="app__form__field__input" required type="text" id="location">
+            </div>
+            <div class="app__form__field">
+                <label class="app__form__field__label" for="year">year</label>
+                <input class="app__form__field__input" type="number" location="" id="year">
+            </div>
+            <button class="app__form__button" type="submit">
+                Save
+            </button>
+        </form>
+        <table class="app__tableusers">
+            <thead>
+                <tr class="app_table">
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Location</th>
+                    <th>Year</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="app__tableusers__body">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./js/data.js"></script>
+    <script src="./js/delete.js"></script>
+    <script src="./js/edit.js"></script>
+    <script src="./js/listTable.js"></script>
+    <script src="./js/form.js"></script>
+</body>
+
+</html>
