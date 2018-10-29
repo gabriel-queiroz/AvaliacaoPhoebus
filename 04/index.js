@@ -11,4 +11,3 @@ const createCheckDigit = nembershipId => {
     return prev + parseFloat(e);
   }, 0);
 };
-console.log(createCheckDigit("55555"));
